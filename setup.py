@@ -62,7 +62,7 @@ setuptools.setup(
         'numpy',
         'optax @ git+https://github.com/deepmind/optax#egg=optax',
         'orbax-checkpoint',
-        'seqio==0.0.18',
+        'seqio @ git+https://github.com/Quolum/seqio.git',
         'tensorflow',
         'tensorstore >= 0.1.20',
         # remove this when sentencepiece_model_pb2 is re-generated in the
